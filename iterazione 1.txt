@@ -1,0 +1,3 @@
+iter 1:
+- raggruppare UC in component;
+- definire stile architetturale (serverless?);
