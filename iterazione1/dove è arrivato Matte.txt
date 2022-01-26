@@ -1,3 +1,1 @@
-- far funzionare response JSON della LF (non dà i buoniSconto al momento);
-- inserire nella LF la generazione di nuovi buoni sconto;
 - terminare il doc sull'iterazione 1 aggiungendo ciò che è stato fatto;
