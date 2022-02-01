@@ -42,7 +42,7 @@ exports.handler = async (event, context) => {
   
   // generazione buono sconto per festeggiati (con rigenerazione in caso esista già uno sconto col codice scelto inizialmente)
   for(let i = 0; i < festeggiati.length; i++) {
-    var codicePresente = true;
+    let codicePresente = true;
     while(codicePresente) {
       let nuovoCodice = Math.floor(Math.random() * 1000000);
       let nuovaScadenza = new Date(today.getFullYear(), (today.getMonth() + 2) % 12, today.getDate());
