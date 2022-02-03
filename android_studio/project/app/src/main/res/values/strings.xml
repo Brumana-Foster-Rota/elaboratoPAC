@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="appuntamenti">Appuntamenti</string>
+    <string name="taglio_donna">Taglio donna</string>
+    <string name="taglio_uomo">Taglio uomo</string>
+    <string name="colore">Colore</string>
+    <string name="piega">Piega</string>
+    <string name="altro">Altro</string>
+    <string name="servizi">Seleziona servizi</string>
+    <string name="cliente">Cliente</string>
+    <string name="cerca">Cerca/Aggiungi</string>
+    <string name="seleziona_cliente">Seleziona cliente</string>
+    <string name="cerca_cliente">Cerca</string>
+    <string name="elimina">Elimina</string>
+</resources>
