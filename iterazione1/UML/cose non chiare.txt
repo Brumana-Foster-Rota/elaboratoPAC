@@ -1,0 +1,2 @@
+- sul component diagram bisogna già specificare quali sono le tecnologie con cui implementeremo le interfacce? Se sì, come si fa a fare il class diagram dato che non stiamo definendo nulla di nuovo?;
+- component diagram con locazione delle componenti o diventa troppo deployment così?;
