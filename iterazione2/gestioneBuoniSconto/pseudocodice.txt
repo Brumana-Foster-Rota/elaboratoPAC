@@ -1,0 +1,20 @@
+// il seguente algoritmo dovrà essere eseguito una sola volta al giorno
+gestioneBuoniSconto(BuonoSconto[] buoniSconto, Cliente[] clienti) -> void
+	for each BuonoSconto bS in buoniSconto
+		if bS.scadenza < adesso
+			buoniSconto.remove(bS) // supponiamo che questo metodo esista
+	
+	DateTime nuovaScadenza <- adesso.aggiungiMesi(2) // supponiamo che questo metodo esista
+	for each Cliente c in clienti
+		if c.compleanno = adesso.giorno + "/" + adesso.mese // c.compleanno stringa in formato dd/mm
+			boolean codiceDuplicato <- true
+			while codiceDuplicato
+				int nuovoCodice <- random_int(0, 999999) // supponendo che questa funzione esista (i parametri passati sono i due estremi dell'intervallo di generazione)
+				codiceDuplicato <- false
+				for each BuonoSconto bS in buoniSconto
+					if bS.codice = nuovoCodice
+						codicePresente <- true
+
+			buoniSconto.add(new BuonoSconto(nuovoCodice, nuovaScadenza, c)) // supponiamo che questo metodo esista e che il costruttore di BuonoSconto sia definito
+				
+				
