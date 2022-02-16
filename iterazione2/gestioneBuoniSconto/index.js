@@ -24,6 +24,7 @@ exports.handler = async (event, context) => {
   const clienti = await db.collection("clienti");
   const buoniSconto = await db.collection("buoniSconto");
   
+  
   // ELIMINAZIONE BUONI SCONTO SCADUTI
   let today = new Date();
   let today_mmdd = ("0" + today.getDate()).slice(-2) + "/" + ("0" + (today.getMonth() + 1)).slice(-2); // getMonth() fornisce gennaio come 0
@@ -38,8 +39,30 @@ exports.handler = async (event, context) => {
   const festeggiati = await clienti.find({
                                       compleanno: today_mmdd
                                     }).toArray();
-  
-  
+                                    
+  // generazione buono sconto per festeggiati (con rigenerazione in caso esista già uno sconto col codice scelto inizialmente)
+  let nuovaScadenza = new Date(today.getFullYear(), (today.getMonth() + 2) % 12, today.getDate()); // uguale per tutti, la dichiaro una volta sola
+  for(let i = 0; i < festeggiati.length; i++) {
+    let codiceDuplicato = true;
+    let nuovoCodice; // serve dichiarazione perché la modifico nel while ma la utilizzo dopo
+    while(codiceDuplicato) {
+      nuovoCodice = Math.floor(Math.random() * 1000000);
+
+      // per la verifica di unicità del codice generato, faccio una scarica dal db ogni volta per non dover tenere aggiornata una copia locale dello stesso ad ogni inserimento (tanto non ci sono vincoli di velocità di esecuzione)
+      if(!(await buoniSconto.find({ codice: nuovoCodice }).toArray().length > 0)) // < 0 o == 0 non funzionano, faccio !>0 anche se non è bellissimo
+        codiceDuplicato = false;
+    }
+
+    await buoniSconto.insertOne({
+                      codice: nuovoCodice,
+                      scadenza: nuovaScadenza,
+                      titolare: festeggiati[i]["_id"] 
+                      });
+  }
+};
+
+/*
+  // VERSIONE VECCHIA (NON OTTIMALE)
   // generazione buono sconto per festeggiati (con rigenerazione in caso esista già uno sconto col codice scelto inizialmente)
   for(let i = 0; i < festeggiati.length; i++) {
     let codicePresente = true;
@@ -62,4 +85,4 @@ exports.handler = async (event, context) => {
       }
     }    
   }
-};
+*/
