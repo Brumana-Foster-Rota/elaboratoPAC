@@ -1,3 +1,1 @@
 - sequence diagram - eventualmente (anche alla fine);
-- dire che data model è anche data transfer model;
-- se Tim cambia modo di connettersi a MongoDB modificare deployment/component;
