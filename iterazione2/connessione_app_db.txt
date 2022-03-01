@@ -1,3 +1,0 @@
-Per connettere l'app con i cluster di MongoDB bisogna utilizzare Realm.
-
-https://docs.mongodb.com/realm/get-started/introduction-mobile/
