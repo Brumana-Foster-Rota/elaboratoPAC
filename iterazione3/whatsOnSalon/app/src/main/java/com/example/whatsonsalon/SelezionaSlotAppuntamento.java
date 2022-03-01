@@ -67,7 +67,7 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
 
     private DatePickerDialog datePickerDialog;
     private Button dateButton;
-    private Date dateDate;
+    private Date dateDate = new Date();
 
 
     @Override
@@ -98,7 +98,7 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
 
                     settaInfo(config);
                     proponiSlot(config);
-                    riempiScrollView();
+                    //riempiScrollView();
 
                     for(String s : nomeTrattamenti)
                         nomeTrattamentiRealmList.add(s);
@@ -202,41 +202,47 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
                         dataSelezionata.set(Calendar.MINUTE, Integer.valueOf(parti[1]));
 
                         Date dataSelezionataInDate = dataSelezionata.getTime();
+                        Date now = new Date();
 
-                        Calendar dataSelezionataFine = Calendar.getInstance();
-                        dataSelezionataFine.setTime(dataSelezionataInDate);
-                        dataSelezionataFine.add(Calendar.MINUTE, minutiDaAllocare);
-
-                        String ora = String.valueOf(dataSelezionataFine.get(Calendar.HOUR_OF_DAY));
-                        String minuti;
-                        if(dataSelezionataFine.get(Calendar.MINUTE) == 0)
-                            minuti = "00";
-                        else
-                            minuti = String.valueOf(dataSelezionataFine.get(Calendar.MINUTE));
-
-                        String om = ora.concat(minuti);
-
-                        appuntamenti nuovoAppuntamento = new appuntamenti();
-                        nuovoAppuntamento.set_id(new ObjectId());
-                        nuovoAppuntamento.set_partition("salon");
-                        nuovoAppuntamento.setCliente(codiceCliente);
-                        nuovoAppuntamento.setDataOra(dataSelezionataInDate);
-                        nuovoAppuntamento.setOraFine(dataSelezionataFine.getTime());
-                        nuovoAppuntamento.setOra(Integer.valueOf(om));
-                        nuovoAppuntamento.setTrattamenti(nomeTrattamentiRealmList);
-
-                        try {
-                            realm = Realm.getInstance(config);
-                            realm.executeTransaction (transactionRealm -> {
-                                transactionRealm.insert(nuovoAppuntamento);
-                            });
-                        } finally {
-                            Toast toast = Toast.makeText(getApplicationContext(), "Appuntamento inserito", Toast.LENGTH_SHORT);
+                        if(dataSelezionataInDate.getTime()<now.getTime()) {
+                            Toast toast = Toast.makeText(getApplicationContext(), "Data e orario invalidi ", Toast.LENGTH_SHORT);
                             toast.show();
+                        } else {
+                            Calendar dataSelezionataFine = Calendar.getInstance();
+                            dataSelezionataFine.setTime(dataSelezionataInDate);
+                            dataSelezionataFine.add(Calendar.MINUTE, minutiDaAllocare);
 
-                            realm.close();
+                            String ora = String.valueOf(dataSelezionataFine.get(Calendar.HOUR_OF_DAY));
+                            String minuti;
+                            if(dataSelezionataFine.get(Calendar.MINUTE) == 0)
+                                minuti = "00";
+                            else
+                                minuti = String.valueOf(dataSelezionataFine.get(Calendar.MINUTE));
+
+                            String om = ora.concat(minuti);
+
+                            appuntamenti nuovoAppuntamento = new appuntamenti();
+                            nuovoAppuntamento.set_id(new ObjectId());
+                            nuovoAppuntamento.set_partition("salon");
+                            nuovoAppuntamento.setCliente(codiceCliente);
+                            nuovoAppuntamento.setDataOra(dataSelezionataInDate);
+                            nuovoAppuntamento.setOraFine(dataSelezionataFine.getTime());
+                            nuovoAppuntamento.setOra(Integer.valueOf(om));
+                            nuovoAppuntamento.setTrattamenti(nomeTrattamentiRealmList);
+
+                            try {
+                                realm = Realm.getInstance(config);
+                                realm.executeTransaction (transactionRealm -> {
+                                    transactionRealm.insert(nuovoAppuntamento);
+                                });
+                            } finally {
+                                Toast toast = Toast.makeText(getApplicationContext(), "Appuntamento inserito", Toast.LENGTH_SHORT);
+                                toast.show();
+
+                                realm.close();
+                            }
+                            startActivity(new Intent(SelezionaSlotAppuntamento.this, MainPage.class));
                         }
-                        startActivity(new Intent(SelezionaSlotAppuntamento.this, MainPage.class));
                     }
                 });
             });
@@ -275,6 +281,7 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
             if(appuntamentiDaOraList.size() == 0) {
                 //"proposta" così istanziata indica questo preciso istante (data e ora di quando accedo a questa activity)
                 Calendar proposta = Calendar.getInstance();
+
                 Calendar chiusuraFake = chiusura;
 
                 //se proposta è prima dell'apertura del negozio, sposto la proposta all'apertura del negozio
@@ -303,9 +310,9 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
                     }
                 }
             } else {
-
                 //caso in cui devo navigare tra appuntamenti già esistenti
                 Calendar proposta = Calendar.getInstance();
+
                 Calendar chiusuraFake = Calendar.getInstance();
                 chiusuraFake.setTime(chiusura.getTime());
                 Calendar aperturaFake = Calendar.getInstance();
@@ -369,6 +376,7 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
                     }
                 }
             }
+            riempiScrollView();
         } finally {
             realm.close();
         }
@@ -466,6 +474,7 @@ public class SelezionaSlotAppuntamento extends AppCompatActivity {
 
                 //variabile globale che indica la data selezionata nel datapicker
                 dateDate = c.getTime();
+
             }
         };
 

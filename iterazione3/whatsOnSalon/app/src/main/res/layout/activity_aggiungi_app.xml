@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
     tools:context=".AggiungiAppActivity">
 
     <TextView
@@ -24,10 +26,11 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="333dp"
-        android:layout_height="168dp"
-        android:layout_marginTop="80dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="56dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,12 +38,11 @@
         android:id="@+id/scrollView3"
         android:layout_width="336dp"
         android:layout_height="221dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="252dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,13 +63,12 @@
         android:id="@+id/selezionaslot"
         android:layout_width="343dp"
         android:layout_height="54dp"
+        android:layout_marginTop="20dp"
         android:text="Conferma scelte"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
     <TextView
         android:id="@+id/textView4"
@@ -83,6 +84,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.942" />
+
+    <EditText
+        android:id="@+id/filtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="Cerca"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

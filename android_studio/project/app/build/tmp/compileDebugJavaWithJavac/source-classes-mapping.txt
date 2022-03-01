@@ -1,0 +1,23 @@
+com/example/project/BuildConfig.java
+ com.example.project.BuildConfig
+com/example/project/databinding/ActivityMainBinding.java
+ com.example.project.databinding.ActivityMainBinding
+com/example/project/databinding/ActivityAggiungiAppuntamentoBinding.java
+ com.example.project.databinding.ActivityAggiungiAppuntamentoBinding
+com/example/project/aggiungi_appuntamento.java
+ com.example.project.aggiungi_appuntamento
+ com.example.project.aggiungi_appuntamento$1
+com/example/project/cerca_aggiungi_cliente.java
+ com.example.project.cerca_aggiungi_cliente
+ com.example.project.cerca_aggiungi_cliente$1
+com/example/project/MainActivity.java
+ com.example.project.MainActivity
+ com.example.project.MainActivity$1
+ com.example.project.MainActivity$2
+com/example/project/databinding/ActivityProposteSlotBinding.java
+ com.example.project.databinding.ActivityProposteSlotBinding
+com/example/project/databinding/ActivityCercaAggiungiClienteBinding.java
+ com.example.project.databinding.ActivityCercaAggiungiClienteBinding
+com/example/project/proposte_slot.java
+ com.example.project.proposte_slot
+ com.example.project.proposte_slot$1

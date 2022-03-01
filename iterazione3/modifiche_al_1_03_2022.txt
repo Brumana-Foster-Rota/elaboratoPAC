@@ -1,0 +1,3 @@
+modifiche:
+- non si può inserire manualmente date precedenti alla data di oggi (compreso orario)
+- filtro per ricerca clienti FATTO! :D
