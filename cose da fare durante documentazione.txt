@@ -1,2 +1,3 @@
+- in iterazione 3 anche qualche perfezionamento UI WhatsOnSalon;
 - sequence diagram - eventualmente (anche alla fine);
 - complessità degli algoritmi in pseudocodice;
