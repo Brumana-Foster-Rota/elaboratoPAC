@@ -1,0 +1,2 @@
+- aggiunta visualizzazione numero di telefono nel main page
+- piccole modifiche alla UI

@@ -193,7 +193,7 @@ public class MainPage extends AppCompatActivity {
                     clienti clienteInfo = trovaCliente(apt.getCliente(), risultatiClienti);
 
                     checkboxes[i] = new CheckBox(this);
-                    checkboxes[i].setText(clienteInfo.getNome().toUpperCase()  + " " + clienteInfo.getCognome().toUpperCase() + " " + infoAppuntamenti.toString() +"\n[" + mostraOrario(apt.getDataOra().getTime()) + " - " + mostraOrario(apt.getOraFine().getTime()) + "]");
+                    checkboxes[i].setText(clienteInfo.getNome().toUpperCase()  + " " + clienteInfo.getCognome().toUpperCase() + " [" + clienteInfo.getTelefono() + "]\n"  + infoAppuntamenti.toString() +" [" + mostraOrario(apt.getDataOra().getTime()) + " - " + mostraOrario(apt.getOraFine().getTime()) + "]");
                     checkboxes[i].setTextSize(15);
                     codiciAppCheckBox[i] = apt.get_id().toString();
                     lL.addView(checkboxes[i]);
