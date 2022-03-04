@@ -1,7 +1,0 @@
-Per "Appuntamento", "Cliente", "Trattamento":
-l'aggiunta del campo _partition : String serve a Realm per capire quali documenti prelevare dal data lake (Atlas).
-
-Per "Appuntamento":
-sono stati aggiunti due ulteriori campi
-dataFine : DateTime - abbastanza self explanatory
-ora : int - serve come chiave di ordinamento delle query di fetch (serve ad esempio quando voglio visualizzare gli appuntamenti del giorno in ordine di orario di inizio)
