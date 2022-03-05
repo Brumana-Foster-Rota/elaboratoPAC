@@ -1,0 +1,36 @@
+in: elenco appuntamenti futuri, durata appuntamento da fissare in minuti, numero slot da proporre
+out: nSlot proposte di slot per l'appuntamento da fissare
+propostaSlotAppuntamento(Appuntamento[] appuntamenti, int durata, int nSlot) -> DateTime[]
+	ordinaCrescente(appuntamenti, dataOra) <-- ordino appuntamenti per prossimità
+	
+    
+	DateTime[nSlot] proposta <- Ø <-- array che conterrà le proposte
+    DateTime prossimaProposta <- adesso() <-- marker che esclude la proposta multipla dello stesso slot
+	int slotProposti <- 0	
+	 
+    while slotProposti < nSlot
+    	proposta[slotProposti] <- prossimaProposta <-- adesso() nella prima iterazione
+	
+    	calcolo la fine dell'ultimo appuntamento futuro per capire se sto già proponendo oltre di essa e posso dunque
+        evitare la verifica di compatibilità tra la proposta corrente e gli appuntamenti futuri
+    	DateTime fineUltimoAppuntamento <- appuntamenti[appuntamenti.length - 1].dataOra
+        for Trattamento t in appuntamenti[appuntamenti.length - 1].trattamenti
+                fineUltimoAppuntamento <- fineUltimoAppuntamento + t.durata
+    	
+        if proposta[slotProposti] < fineUltimoAppuntamento
+          for Appuntamento a in appuntamenti
+              verifica che la proposta attuale non interferisca con l'appuntamento successivo
+              if (a.dataOra >= proposta[nSlot] + durata && proposta[nSlot] <= ORARIO_CHIUSURA) 
+                  break <-- se non interferisce, la lascia nell'array delle proposte	
+
+              nel caso interferisse, la setta alla fine dell'appuntamento successivo e riprova
+              proposta[nSlot] <- a.dataOra
+              for Trattamento t in a.trattamenti
+                  proposta[nSlot] <- proposta[nSlot] + t.durata
+        
+        incrementa il numero di slot proposti e setta come prossima proposta la fine di questo appuntamento se fosse fissato
+        alla proposta appena calcolata
+        prossimaProposta <- proposta[nSlot] + durata 
+        slotProposti <- slotProposti + 1
+	
+	return proposta	
