@@ -1,0 +1,27 @@
+in: elenco buoni sconto esistenti, elenco clienti esistenti
+out: 
+gestioneBuoniSconto(BuonoSconto[] buoniSconto, Cliente[] clienti) -> void
+	rimozione buoni sconto scaduti
+	for BuonoSconto bS in buoniSconto
+		if bS.scadenza < adesso()
+			buoniSconto <- buoniSconto - bS
+	
+    
+    generazione buoni sconto
+	DateTime nuovaScadenza <- adesso().aggiungiMesi(2)
+	for Cliente c in clienti
+      	c.compleanno è salvata come stringa formato dd/mm
+		if c.compleanno = adesso().giorno + "/" + adesso().mese
+			bool codiceDuplicato <- true
+			while codiceDuplicato <-- garanzia univocità codice del buono in generazione
+				int nuovoCodice <- random_int(0, 999999) <-- generazione intero tra 0 e 999999 compresi
+				codiceDuplicato <- false
+				for BuonoSconto bS in buoniSconto
+					if bS.codice = nuovoCodice
+						codicePresente <- true
+
+            supponiamo esista un costruttore BuonoSconto(int codice, string scadenza, Cliente titolare)
+			buoniSconto <- buoniSconto + BuonoSconto(nuovoCodice, nuovaScadenza, c)
+            supponiamo esista un metodo per l'invio di auguri + notifica generazione buono
+			inviaAuguri(c.telefono, nuovoCodice)	
+				
