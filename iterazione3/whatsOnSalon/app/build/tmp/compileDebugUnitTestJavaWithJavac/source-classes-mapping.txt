@@ -1,0 +1,4 @@
+com/example/whatsonsalon/ExampleUnitTest.java
+ com.example.whatsonsalon.ExampleUnitTest
+com/example/whatsonsalon/SelezionaSlotAppuntamentoTest.java
+ com.example.whatsonsalon.SelezionaSlotAppuntamentoTest

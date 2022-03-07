@@ -1,0 +1,267 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\fostj\.gradle\caches\transforms-3\f92424aa207944512ced7624baa17d3e\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\fostj\.gradle\caches\transforms-3\70814eb8bb097fbae30a555edbeb8a29\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\32d10e49ac9d39bea1556cbab7f0a3bf\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\fostj\.gradle\caches\transforms-3\dc94b57c4460692f35e659eac41efe63\transformed\jetified-relinker-1.4.3\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\fostj\.gradle\caches\transforms-3\8a8cfd2603f9715a6a25aa3d1e8683b0\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b5690c5e8146423bcf1a53c187feadb2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fostj\.gradle\caches\transforms-3\7316ab758e6b8c8f5c3507ded3e89c88\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fostj\.gradle\caches\transforms-3\ceabd4c37f93b1b689c5fca6e43b9bef\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\8823339607fb3817f0f9f0e54d2a4e9f\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5909e31f778c66d4cafaf8a1a7e6b99d\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\60e9b02a422455ffae3a022f2e2b6188\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\3b281c8bd6e38a3f3136e4630955203b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\c9f4a25b32353db950714644ddb8a2f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fostj\.gradle\caches\transforms-3\f55c98bc516a2ff14ad8718f47b90c83\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\e6b0014f3bbdaa1c1104fa4b821c0815\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\c6ca84225a6b04232c43ab7aec128f2f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\012f73a58478c56a7318cd0df8af00ce\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5693e0c263653bfbefd936181e3af00b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\7408dba0d28cd29154f3d6ab7f5ffe80\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\fa5695ed1806ac0b01aeceaf5985f74d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\ef79f7a72ca96af295324c481185e32b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\736c89a8a71e24e442be4213d88fbb01\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\3176d8a2561edde62142173713e58504\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\d71decb03cb9ae35014641df91c9e6d5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\ccc8f3087cb78a209aa2e818f12abdbc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b1e447107cc9140e6b2685f872385038\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\955ba427822956aa8ac061ef8b8a5fff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\d563a675a09e2420f5425abcd97bbb7a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fostj\.gradle\caches\transforms-3\af5889900e3658525e18216db73dea5a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\9ee8d2792945d9316fe86ca9308691f3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\83147f61f5c2381145fa1ea2a10ae896\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fostj\.gradle\caches\transforms-3\9e6bc0e43f40c6282cab43247911b068\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\10e0bcb8b18c9e55321cd2eb352e1c50\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\8be6adb0e542cce72fa8b5edecd5f84d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\70b5c17067f886c44d6cd00db16b5d5a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6df7d07e40c961320e107d4acf570eea\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\103d1ee5f8a3deec55701132addf7364\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:5:5-33:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\fostj\.gradle\caches\transforms-3\f92424aa207944512ced7624baa17d3e\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\fostj\.gradle\caches\transforms-3\f92424aa207944512ced7624baa17d3e\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\fostj\.gradle\caches\transforms-3\70814eb8bb097fbae30a555edbeb8a29\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\fostj\.gradle\caches\transforms-3\70814eb8bb097fbae30a555edbeb8a29\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\955ba427822956aa8ac061ef8b8a5fff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\955ba427822956aa8ac061ef8b8a5fff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:8:9-37
+	android:roundIcon
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:11:9-50
+activity#com.example.whatsonsalon.SelezionaSlotAppuntamento
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:12:9-15:65
+	android:parentActivityName
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:15:13-62
+	android:exported
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:13:13-54
+activity#com.example.whatsonsalon.AggiungiAppActivity
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:16:9-19:54
+	android:parentActivityName
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:19:13-51
+	android:exported
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:17:13-48
+activity#com.example.whatsonsalon.MainPage
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:20:9-23:58
+	android:parentActivityName
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:23:13-55
+	android:exported
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:21:13-37
+activity#com.example.whatsonsalon.MainActivity
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\fostj\.gradle\caches\transforms-3\f92424aa207944512ced7624baa17d3e\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\fostj\.gradle\caches\transforms-3\f92424aa207944512ced7624baa17d3e\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\fostj\.gradle\caches\transforms-3\70814eb8bb097fbae30a555edbeb8a29\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\fostj\.gradle\caches\transforms-3\70814eb8bb097fbae30a555edbeb8a29\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\32d10e49ac9d39bea1556cbab7f0a3bf\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\32d10e49ac9d39bea1556cbab7f0a3bf\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\fostj\.gradle\caches\transforms-3\dc94b57c4460692f35e659eac41efe63\transformed\jetified-relinker-1.4.3\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\fostj\.gradle\caches\transforms-3\dc94b57c4460692f35e659eac41efe63\transformed\jetified-relinker-1.4.3\AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\fostj\.gradle\caches\transforms-3\8a8cfd2603f9715a6a25aa3d1e8683b0\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\fostj\.gradle\caches\transforms-3\8a8cfd2603f9715a6a25aa3d1e8683b0\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b5690c5e8146423bcf1a53c187feadb2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b5690c5e8146423bcf1a53c187feadb2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fostj\.gradle\caches\transforms-3\7316ab758e6b8c8f5c3507ded3e89c88\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fostj\.gradle\caches\transforms-3\7316ab758e6b8c8f5c3507ded3e89c88\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fostj\.gradle\caches\transforms-3\ceabd4c37f93b1b689c5fca6e43b9bef\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fostj\.gradle\caches\transforms-3\ceabd4c37f93b1b689c5fca6e43b9bef\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\8823339607fb3817f0f9f0e54d2a4e9f\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\fostj\.gradle\caches\transforms-3\8823339607fb3817f0f9f0e54d2a4e9f\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5909e31f778c66d4cafaf8a1a7e6b99d\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5909e31f778c66d4cafaf8a1a7e6b99d\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\60e9b02a422455ffae3a022f2e2b6188\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\60e9b02a422455ffae3a022f2e2b6188\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\3b281c8bd6e38a3f3136e4630955203b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\3b281c8bd6e38a3f3136e4630955203b\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\c9f4a25b32353db950714644ddb8a2f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\c9f4a25b32353db950714644ddb8a2f4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fostj\.gradle\caches\transforms-3\f55c98bc516a2ff14ad8718f47b90c83\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fostj\.gradle\caches\transforms-3\f55c98bc516a2ff14ad8718f47b90c83\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\e6b0014f3bbdaa1c1104fa4b821c0815\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\e6b0014f3bbdaa1c1104fa4b821c0815\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\c6ca84225a6b04232c43ab7aec128f2f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\c6ca84225a6b04232c43ab7aec128f2f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\012f73a58478c56a7318cd0df8af00ce\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\012f73a58478c56a7318cd0df8af00ce\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5693e0c263653bfbefd936181e3af00b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\5693e0c263653bfbefd936181e3af00b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\7408dba0d28cd29154f3d6ab7f5ffe80\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\7408dba0d28cd29154f3d6ab7f5ffe80\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\fa5695ed1806ac0b01aeceaf5985f74d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\fa5695ed1806ac0b01aeceaf5985f74d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\ef79f7a72ca96af295324c481185e32b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\ef79f7a72ca96af295324c481185e32b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\fostj\.gradle\caches\transforms-3\d2487352a6258683f7c0765fa3df1a39\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\736c89a8a71e24e442be4213d88fbb01\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\736c89a8a71e24e442be4213d88fbb01\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\3176d8a2561edde62142173713e58504\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\3176d8a2561edde62142173713e58504\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\d71decb03cb9ae35014641df91c9e6d5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\d71decb03cb9ae35014641df91c9e6d5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\ccc8f3087cb78a209aa2e818f12abdbc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\ccc8f3087cb78a209aa2e818f12abdbc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b1e447107cc9140e6b2685f872385038\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\b1e447107cc9140e6b2685f872385038\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\955ba427822956aa8ac061ef8b8a5fff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fostj\.gradle\caches\transforms-3\955ba427822956aa8ac061ef8b8a5fff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\d563a675a09e2420f5425abcd97bbb7a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\d563a675a09e2420f5425abcd97bbb7a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fostj\.gradle\caches\transforms-3\af5889900e3658525e18216db73dea5a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fostj\.gradle\caches\transforms-3\af5889900e3658525e18216db73dea5a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\9ee8d2792945d9316fe86ca9308691f3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fostj\.gradle\caches\transforms-3\9ee8d2792945d9316fe86ca9308691f3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\83147f61f5c2381145fa1ea2a10ae896\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\83147f61f5c2381145fa1ea2a10ae896\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fostj\.gradle\caches\transforms-3\9e6bc0e43f40c6282cab43247911b068\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fostj\.gradle\caches\transforms-3\9e6bc0e43f40c6282cab43247911b068\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\10e0bcb8b18c9e55321cd2eb352e1c50\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\10e0bcb8b18c9e55321cd2eb352e1c50\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\8be6adb0e542cce72fa8b5edecd5f84d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\8be6adb0e542cce72fa8b5edecd5f84d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\70b5c17067f886c44d6cd00db16b5d5a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\70b5c17067f886c44d6cd00db16b5d5a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6df7d07e40c961320e107d4acf570eea\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6df7d07e40c961320e107d4acf570eea\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\103d1ee5f8a3deec55701132addf7364\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fostj\.gradle\caches\transforms-3\103d1ee5f8a3deec55701132addf7364\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fostj\AndroidStudioProjects\whatsOnSalon\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [io.realm:realm-android-library-object-server:10.10.1] C:\Users\fostj\.gradle\caches\transforms-3\97f91132b185c82bfa01052ed56890ac\transformed\jetified-realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:22-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\930f0b693cc7283848a18d8333bc0ad4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fostj\.gradle\caches\transforms-3\6737dd6efde9fa3d57d507d82cf73bf2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fostj\.gradle\caches\transforms-3\e09e1449ac3403a212ada92e8268a95b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
